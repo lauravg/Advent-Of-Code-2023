@@ -3,7 +3,6 @@ import re
 
 def get_input():
     file_path = 'inputs/input_day03.txt'
-    # file_path = 'inputs/input_test_data.txt'
     with open(file_path, 'r') as file:
         return file.readlines()
 
